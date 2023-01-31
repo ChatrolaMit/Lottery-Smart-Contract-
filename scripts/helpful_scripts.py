@@ -66,7 +66,6 @@ def deploy_mock(decimals = DECIMALS , initial_value = INITIAL_VALUE) :
     link_token = LinkToken.deploy({"from":account })
     VRFCoordinatorMock.deploy(link_token , {"from":address})
     print("Mock Deployed")
-            
-        
+              
     
     
